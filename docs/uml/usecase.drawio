@@ -1,0 +1,111 @@
+<mxfile host="Electron">
+  <diagram name="Use Case Diagram" id="6eHVRZ6rO52-SD77b3kB">
+    <mxGraphModel dx="1246" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=none;strokeWidth=2;" value="ระบบแจ้งซ่อมคอมพิวเตอร์และอุปกรณ์" vertex="1">
+          <mxGeometry height="770" width="540" x="640" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="นักศึกษาและครูผู้สอน&#xa;(ผู้แจ้ง)" vertex="1">
+          <mxGeometry height="80" width="40" x="450" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="ช่างเทคนิค" vertex="1">
+          <mxGeometry height="80" width="40" x="1310" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="หัวหน้างานอาคารสถานที่&#xa;และคอมพิวเตอร์" vertex="1">
+          <mxGeometry height="80" width="40" x="1310" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="FR-01: เข้าสู่ระบบ (Login)" vertex="1">
+          <mxGeometry height="60" width="180" x="820" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-02: แจ้งซ่อมอุปกรณ์" vertex="1">
+          <mxGeometry height="60" width="180" x="670" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-03: ดูสถานะและประวัติการแจ้งซ่อม" vertex="1">
+          <mxGeometry height="60" width="200" x="670" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-04: ยกเลิกคำขอแจ้งซ่อม" vertex="1">
+          <mxGeometry height="60" width="180" x="670" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-05: ดูรายการและรับงานซ่อม" vertex="1">
+          <mxGeometry height="60" width="190" x="920" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-06: อัปเดตสถานะและบันทึกผลการซ่อม" vertex="1">
+          <mxGeometry height="60" width="210" x="920" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-07: ดูรายงานสรุปแยกตามห้อง" vertex="1">
+          <mxGeometry height="60" width="190" x="920" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FR-08: จัดการข้อมูลห้องและเครื่องคอมพิวเตอร์" vertex="1">
+          <mxGeometry height="60" width="220" x="920" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-13" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-2" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-14" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-2" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-15" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-2" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-16" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-3" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-17" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-3" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-18" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-4" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-19" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-4" style="endArrow=none;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-20" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-6" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-21" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-7" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-22" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-23" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-9" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-24" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="695" />
+              <mxPoint x="1155" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-25" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="785" />
+              <mxPoint x="1165" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z-XX5SXI-y3OnFlypX1C-26" edge="1" parent="1" source="Z-XX5SXI-y3OnFlypX1C-12" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="Z-XX5SXI-y3OnFlypX1C-5" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1175" y="875" />
+              <mxPoint x="1175" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
